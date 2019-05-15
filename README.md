@@ -1,16 +1,15 @@
 # Getting started
 
-ng new angular-firebase
-cd angular-firebase/
-npm install firebase @angular/fire --save
-npm install rxjs@6.0.0 --save
-ng serve --open
-ng build --prod
-npm install firebase-tools
-./node_modules/.bin/firebase login
-./node_modules/.bin/firebase init
 
-
+    ng new angular-firebase
+    cd angular-firebase/
+    npm install firebase @angular/fire --save
+    npm install rxjs@6.0.0 --save
+    ng serve --open
+    npm install firebase-tools
+    ./node_modules/.bin/firebase login
+    ./node_modules/.bin/firebase init
+    ng build --prod
 
 https://github.com/angular/angularfire2/blob/master/docs/install-and-setup.md
 
