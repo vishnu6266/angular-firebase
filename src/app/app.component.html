@@ -1,5 +1,8 @@
-<ul>
-  <li *ngFor="let item of items | async">
-    {{ item.name }}
-  </li>
-</ul>
+<h1>Angulare Firebase Demo</h1>
+
+<nav>
+  <a routerLink="/">Login</a>&nbsp;
+  <a routerLink="/protected">Protected</a>
+</nav>
+
+<router-outlet></router-outlet>

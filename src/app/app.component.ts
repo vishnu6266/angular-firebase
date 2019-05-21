@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
+
 import { Observable } from 'rxjs';
 
 export interface Item { name: string; }
@@ -10,8 +11,7 @@ export interface Item { name: string; }
 })
 
 export class AppComponent {
-  items: Observable<any[]>;
-  constructor(db: AngularFirestore) {
-    this.items = db.collection('items').valueChanges();
-  }
+
+  title = 'angular firebase';
+
 }
